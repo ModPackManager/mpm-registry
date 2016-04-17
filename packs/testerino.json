@@ -1,0 +1,53 @@
+{
+    "id": "testerino",
+    "displayName": "Testerino Modpack",
+    "version": "0.1.0",
+    "description": "A test modpack.",
+    "mcVersion": "1.8.9",
+    "forgeVersion": "1.8.9-11.15.1.1855",
+    "mods": [
+        {
+            "name": "Waila",
+            "authors": [
+                "ProfMobius"
+            ],
+            "clientSideOnly": true,
+            "strategy": {
+                "id": "curse",
+                "options": {
+                    "project": "waila",
+                    "fileID": "2270821"
+                }
+            }
+        },
+        {
+            "name": "Storage Drawers",
+            "authors": [
+                "jaquadro"
+            ],
+            "clientSideOnly": false,
+            "strategy": {
+                "id": "curse",
+                "options": {
+                    "project": "storage-drawers",
+                    "fileID": "2293518"
+                }
+            }
+        },
+        {
+            "name": "Botania",
+            "authors": [
+                "Vazkii",
+                "TheWhiteWolves",
+                "williewillus"
+            ],
+            "clientSideOnly": false,
+            "strategy": {
+                "id": "direct",
+                "options": {
+                    "url": "https://github.com/williewillus/Botania/releases/download/r1.8-299/Botania-unofficial.r1.8-299.jar"
+                }
+            }
+        }
+    ]
+}
